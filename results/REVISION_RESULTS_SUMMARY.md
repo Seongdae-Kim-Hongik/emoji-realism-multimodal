@@ -11,7 +11,7 @@
 ## Eye-tracking (AOI_BIG primary) — reproduces manuscript
 - Pupil: emotion p=5e-64 (η²p .33), type p=5e-166 (η²p .64), interaction p=6e-40 (η²p .25).
 - Type means pupil: Realistic 3.83 ≈ Real-con 3.84 > Ani-con 3.56 > Graphic-con 3.27.
-- Time to first whole fixation by type: Realistic 502 / Real-con 478 / Ani-con 631 / **Graphic-con 1055 ms** (reversal preserved).
+- Time to first whole fixation by type: Realistic 502 / Real-con 478 / Ani-con 631 / **Graphic-con 1048 ms** (reversal preserved).
 - Total fixation dur, #fixations, #saccades, TTFF: all type p<.001.
 
 ### Image-only AOI robustness (AOI_SMALL) — NEW, R2.2
@@ -34,7 +34,7 @@
 
 ## PCE / survey — reproduces manuscript EXACTLY
 - Emotion (composite): Joy 5.68 ≈ Anger 5.44 ≈ Sadness 5.33 > Disgust 4.55 > Fear 3.77.
-- Type (composite): Realistic 4.31 < Real-con 4.90 < Graphic-con 5.30 ≈ Ani-con 5.32. (ani-con–graphic-con p=.904; graphic-con–real-con p=.018; real-con–realistic p<.001.)
+- Type (composite): Realistic 4.30 < Real-con 4.89 < Graphic-con 5.30 ≈ Ani-con 5.32. (ani-con–graphic-con p=.904; graphic-con–real-con p=.018; real-con–realistic p<.001.)
 - Interaction sig all items (η²p .12–.19). **Fear: all type contrasts n.s. (p=.813)** → null within this stimulus set (NOT "irrelevant").
 
 ## Bayesian cross-modal — re-analyzed 3 ways (NEW, R2.3)
