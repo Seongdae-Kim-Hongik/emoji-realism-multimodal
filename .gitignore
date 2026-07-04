@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+.DS_Store
+data/*.xlsx
+data/*.tsv
+data/stimuli/*
+!data/DATA_DICTIONARY.md
+__pycache__/
+*.pyc

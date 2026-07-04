@@ -1,0 +1,6 @@
+"Emotion","ROI","Outcome","V1_r","V1_BF","V2_r","V2_BF"
+"sadness","Right FPC","Average_eye_openness",-0.424,234,-0.497,10.9
+"joy","Right VLPFC","Average_pupil_diameter",-0.385,71.1,-0.425,4.22
+"joy","Right DLPFC","Q2",-0.271,5.16,-0.175,0.691
+"disgust","Left VLPFC","Average_eye_openness",-0.381,69.4,-0.365,2.69
+"fear","Left FPC","Average_pupil_diameter",-0.331,19.3,-0.375,3.2

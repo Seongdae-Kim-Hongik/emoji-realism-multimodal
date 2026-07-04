@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article and this archived release."
+title: "Emoji Realism — Multimodal (fNIRS · Eye-tracking · PCE) Analysis Code"
+type: software
+authors:
+  - family-names: Cha
+    given-names: Jaechang
+  - family-names: Yeo
+    given-names: Sanga
+  - family-names: Ha
+    given-names: Chunghun
+  - family-names: Kim
+    given-names: Seongdae
+    affiliation: Hongik University
+repository-code: "https://github.com/Seongdae-Kim-Hongik/emoji-realism-multimodal"
+license: MIT
+keywords:
+  - emoji
+  - fNIRS
+  - eye-tracking
+  - perceived communication effectiveness
+  - affective computing
+preferred-citation:
+  type: article
+  title: "A Conditional Dissociation in Emoji Communication: Neurophysiological and Behavioral Evidence"
+  authors:
+    - family-names: Cha
+      given-names: Jaechang
+    - family-names: Yeo
+      given-names: Sanga
+    - family-names: Ha
+      given-names: Chunghun
+    - family-names: Kim
+      given-names: Seongdae
+  journal: "International Journal of Human–Computer Interaction"
+  year: 2026
