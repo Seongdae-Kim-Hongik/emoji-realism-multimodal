@@ -73,4 +73,4 @@ the corresponding author on reasonable request and with IRB approval.
 Code released under the MIT License (see `LICENSE`).
 
 ## Citation
-See `CITATION.cff`. Archived release: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21188829.svg)](https://doi.org/10.5281/zenodo.21188829)
+See `CITATION.cff`. Archived release: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21188828.svg)](https://doi.org/10.5281/zenodo.21188828)
