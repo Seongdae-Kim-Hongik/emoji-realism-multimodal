@@ -16,6 +16,8 @@ EMO_LEVELS  <- c("Joy", "Anger", "Sadness", "Disgust", "Fear")
 TYPE_LEVELS <- c("Realistic", "GraphicCon", "AniCon", "RealCon")
 
 # Korean -> English mappings used by the raw exports
+# Raw data-label maps: the survey columns and stimulus filenames use Korean
+# emotion/type labels; these dictionaries map them to the English analysis codes.
 TYPE_MAP <- c("애니콘"="AniCon", "그래픽콘"="GraphicCon", "실사콘"="RealCon", "실사"="Realistic")
 EMO_MAP  <- c("분노"="Anger", "슬픔"="Sadness", "혐오"="Disgust", "기쁨"="Joy", "공포"="Fear")
 

@@ -23,6 +23,7 @@ bayes_crossmodal <- function(path_survey = PATHS$survey,
   q_cols <- colnames(raw)[grepl("_[1-4]$", colnames(raw))]
   # merge via anonymized ID column present in the survey export
   stopifnot("ID" %in% colnames(raw))
+  # Korean-to-English label maps for the raw survey column names
   tmap <- c("애니콘"="ani-con","그래픽콘"="graphic-con","실사콘"="real-con","실사"="realistic")
   emap <- c("분노"="anger","슬픔"="sadness","혐오"="disgust","기쁨"="joy","공포"="fear")
   df_sv <- raw %>% mutate(ID=tolower(trimws(ID))) %>% select(ID, all_of(q_cols)) %>%

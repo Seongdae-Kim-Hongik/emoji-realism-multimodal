@@ -14,6 +14,7 @@ load_survey <- function(path = PATHS$survey) {
     mutate(
       Score  = as.numeric(Score),
       Type_kr = str_extract(col_name, "^[^_]+"),
+      # match Korean emotion tokens embedded in the raw column names
       Emo_kr = case_when(str_detect(col_name,"분노")~"분노", str_detect(col_name,"슬픔")~"슬픔",
                          str_detect(col_name,"혐오")~"혐오", str_detect(col_name,"기쁨")~"기쁨",
                          str_detect(col_name,"공포")~"공포"),

@@ -18,6 +18,7 @@ ET   = "data/eyetracking_metrics.tsv"     # Tobii AOI metrics export
 OUT  = "results"; os.makedirs(OUT, exist_ok=True)
 
 def nfc(s): return unicodedata.normalize("NFC", s)
+# Korean emotion tokens in the stimulus filenames -> English labels
 KR_EMO = {"공포":"Fear","기쁨":"Joy","분노":"Anger","슬픔":"Sadness","혐오":"Disgust"}
 
 def features(path):
