@@ -38,8 +38,11 @@ bayes_crossmodal <- function(path_survey = PATHS$survey,
     mutate(ID=tolower(trimws(ID)), Type=tolower(trimws(Type)), Emotion=tolower(trimws(Emotion))) %>%
     filter(AOI=="AOI_BIG", Type %in% c("ani-con","graphic-con","real-con","realistic"),
            Emotion %in% c("anger","sadness","disgust","joy","fear")) %>%
-    group_by(ID,Type,Emotion) %>%
-    summarise(across(all_of(et_vars), ~mean(as.numeric(.), na.rm=TRUE)), .groups="drop")
+    mutate(across(all_of(et_vars), ~as.numeric(.))) %>%
+    select(ID, Type, Emotion, all_of(et_vars))
+  # NOTE: eye-tracking rows are kept UNaggregated so that V1 reproduces the
+  # manuscript's exploratory pooled analysis (~2 trials/condition -> N ~ 120-144
+  # per emotion). V2 below aggregates to one value per participant per emotion.
 
   merged <- df_fnirs %>% inner_join(df_sv, by=c("ID","Type","Emotion")) %>%
     inner_join(df_et, by=c("ID","Type","Emotion"))
